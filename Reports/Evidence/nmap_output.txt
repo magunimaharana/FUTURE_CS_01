@@ -1,1 +1,17 @@
+Command Used:
+nmap -sV sunitasglamtouch.netlify.app
 
+Output:
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-03 15:44 -0400
+Nmap scan report for sunitasglamtouch.netlify.app (52.74.6.109)
+Host is up (0.022s latency).
+Other addresses for sunitasglamtouch.netlify.app (not scanned): 2406:da18:b3d:e201::259 2406:da18:b3d:e201::258 13.215.239.219
+rDNS record for 52.74.6.109: ec2-52-74-6-109.ap-southeast-1.compute.amazonaws.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+443/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 61.02 seconds
